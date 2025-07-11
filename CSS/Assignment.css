@@ -1,0 +1,114 @@
+/*----font CSS-------*/
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/*----------navigation-Bar------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Banner-Hero{
+    margin: 0 auto;
+    width: 1440px;
+    height: 698px;
+    /*border: 2px solid red;*/
+    background-image: url(../Assets/Hero-bg.png);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 151px;
+    margin: 0 auto;
+
+
+    /*border: 2px solid red;*/
+}
+
+.navigation-logo{
+    height: 51px;
+    width:99px ;
+    font-weight: bolder;
+    font-size: 34px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+
+}
+
+nav div button{
+    width: 132px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+nav div button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sign-up{
+
+    color: none;
+
+}
+
+.Hero-content{
+    /*border: 2px solid rebeccapurple;*/
+    width: 905px;
+    height: 237px ;
+    margin: 158px 152px 267.5px 267.5px;
+}
+
+.Hero-content{
+
+}
+ 
+
+.Hero-title{
+    width: 905px;
+    height: 152px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.Hero-bnt{
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    width: 174px;
+    height: 48px;
+    font-family: "Raleway", sans-serif;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 365.5px;
+    margin-right: 365.5px;
+}
+
+/*-------Main-Section------*/
