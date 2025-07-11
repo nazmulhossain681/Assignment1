@@ -58,8 +58,13 @@ nav div button{
     height: 48px;
     border: none;
     border-radius: 5px;
-    background-color: #4E47FF;
-    cursor: pointer;
+    background-color: #4E47FF; 
+}
+
+nav div button:hover{
+    background-color: yellowgreen;
+     cursor: pointer;
+     transition: 0.23s;
 }
 nav div button a {
     text-decoration: none;
@@ -67,6 +72,7 @@ nav div button a {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 16px;
+
 }
 
 .sign-up{
@@ -110,6 +116,12 @@ nav div button a {
     margin-top: 37px;
     margin-left: 365.5px;
     margin-right: 365.5px;
+}
+
+.Hero-bnt:hover{
+   background-color: yellowgreen;
+     cursor: pointer;
+     transition: 0.23s;
 }
 
 /*-------Main-Section------*/
@@ -167,6 +179,12 @@ main{
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: white;
+    border: none;
+}
+.section-1-left-btn:hover{
+     background-color: yellowgreen;
+     cursor: pointer;
+     transition: 0.23s;
 }
 .section-right{
     /*border: 2px solid red;*/
@@ -355,7 +373,12 @@ font-size: 16px;
     color: white;
     margin-bottom: 20px;
     border: none;
+}
 
+.section-4-btn:hover{
+     background-color: yellowgreen;
+     cursor: pointer;
+     transition: 0.23s;
 }
 
 .last-image{
@@ -371,11 +394,11 @@ font-size: 16px;
 
 .section-5{
     display: flex;
-    gap: auto;
+    gap: 130px;
     justify-content: space-between;
     align-items: center;
     padding: 71px 0px;
-    margin-bottom: 14px;
+    margin-bottom: 0px;
 
 }
 
@@ -392,11 +415,11 @@ font-size: 16px;
 form input[type="text"], form input[type="email"], form textarea {
     width: 497px;
     height: 72px;
-    background-color: white;
+    background-color: rgb(240, 191, 191);
     font-size: 16px;
-    color: #757575;
+    color: #b1a4a4;
     border:none;
-    border-radius: 5px;
+    border-radius: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -406,8 +429,8 @@ form input[type="text"], form input[type="email"], form textarea {
     margin-bottom: 0px;
 }
 .last-button{
-    width: 235px;
-    height: 48px;
+    width: 497px;
+    height: 62px;
     padding: 12px 36px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -415,8 +438,13 @@ form input[type="text"], form input[type="email"], form textarea {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: white;
-    
     border: none;
+    margin-top: 10px;
+}
+.last-button:hover{
+     background-color: yellowgreen;
+     cursor: pointer;
+     transition: 0.23s;
 }
 
 
@@ -427,7 +455,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     width: auto;
     height: 428px;
     /*border: 2px solid red;*/
@@ -462,6 +489,7 @@ padding-right: 120px;
     color: rgba(137, 135, 161, 1);
     width: 531px;
     height: 48px;
+    margin: 0px auto;
 }
 
 .foot-bottom-container{
