@@ -265,8 +265,8 @@ section div div p{
     box-shadow: 0px 6px 50px 0px rgba(90, 36, 36, 0.06);
 }
 .icon{
-    background-image: url(../Assets/icon-star.png);
-    background-repeat: repeat-x;
+   /* background-image: url(../Assets/icon-star.png);
+    background-repeat: repeat-x;*/
     width: 116px;
     height: 20px;
 }
@@ -492,9 +492,17 @@ padding-right: 120px;
     margin: 0px auto;
 }
 
-.foot-bottom-container{
+
+.footer-menu {
     display: flex;
     justify-content: space-between;
-    text-align: justify;
-    cursor: pointer;
+    list-style: none;
+    gap: 48px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(137, 135, 161, 1); 
 }
