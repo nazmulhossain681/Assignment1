@@ -375,6 +375,8 @@ font-size: 16px;
     justify-content: space-between;
     align-items: center;
     padding: 71px 0px;
+    margin-bottom: 14px;
+
 }
 
 .Huge-sentence{
@@ -413,6 +415,58 @@ form input[type="text"], form input[type="email"], form textarea {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: white;
-    margin-bottom: 20px;
+    
     border: none;
+}
+
+
+
+/*------footer section-----*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: auto;
+    height: 428px;
+    /*border: 2px solid red;*/
+    box-shadow: 10px 0px 0px 0px rgba(34, 32, 32, 0.6);
+}
+
+.footer-container{
+    margin: 0 auto;
+    width: 531px;
+    height: 221px;
+    
+    /*border: 2px solid red;*/
+    /**/
+    
+}
+.foot-logo{
+width: 191px;
+height: 212px;
+font-weight: bolder;
+font-size: 100px;
+font-family: "Inter", sans-serif;
+text-align: center;
+color: #4E47FF;
+/*margin-top: 74px;*/
+padding-left: 120px;
+padding-right: 120px;
+}
+.footer-description {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    color: rgba(137, 135, 161, 1);
+    width: 531px;
+    height: 48px;
+}
+
+.foot-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    cursor: pointer;
 }
